@@ -25,7 +25,7 @@ while shopping == "y":
     # Add pie to the pie list by finding the matching index and adding one to its value
     pie_purchases[int(pie_choice)-1] += 1
 
-    print("--------------------------------------------------------------")
+    print("---------------------------------------------------------")
 
     # Inform the customer of the pie purchase
     print("Great! We'll have that " +
