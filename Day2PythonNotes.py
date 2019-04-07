@@ -75,5 +75,24 @@ for employee in roster:
 # (3, 'Meredith', 'Sales')
 # (4, 'Kelly', 'HR')
 
-
 # ------------------------------------------------------------------
+
+# Functions
+
+# Defining arrays
+listOne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+listTwo = [11, 12, 13, 14, 15]
+
+# Defining functions
+
+
+def listInformation(simpleList):
+    print("The values within the list are...")
+    for value in simpleList:
+        print(value)
+    print("The length of this list is... " + str(len(simpleList)))
+
+
+# Calling functions
+listInformation(listOne)
+listInformation(listTwo)
